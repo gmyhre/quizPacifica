@@ -500,3 +500,26 @@ textarea.c-p {
     }
 
 }
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+  #quiz ul li {
+    height: 835px;
+    background-color:green;
+    margin: 25px 0 95px 0;
+    max-height: 835px;
+    min-height: 835px;
+  }
+  .quiz-overlay, .result {
+    height: 450px; /* 359px */
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+  
+
+
+}
+
+

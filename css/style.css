@@ -234,6 +234,7 @@ h1 {
   max-height: 335px;
   min-height: 335px;
 }
+
 #quiz ul li div {
   color: #000000;
   margin: 10px 0;
@@ -504,29 +505,49 @@ textarea.c-p {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 348px) and (max-width : 767px) {
-  #quiz ul li {
-    height: 835px;
-    background-color:green;
-    margin: 25px 0 95px 0;
-    max-height: 835px;
-    min-height: 835px;
-  }
-  .quiz-overlay, .result {
-    height: 850px; /* 359px */
-    position: absolute;
-    width: 100%;
-    z-index: -1;
-  }
-  #page-wrap {
-    height: 850px;
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-  }
-    
-
 
 }
+
+/*graham over writing the styles of the elements above  you can replace these in the css */
+
+#quiz ul li {
+  height: 635px;
+  margin: 25px 0 95px 0;
+  max-height: 635px;
+  min-height: 635px;
+  background-color:fuchsia;
+}
+
+.quiz-overlay, .result {
+  height: 650px; /* 359px */
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  background-color:lime;
+  
+}
+
+
+#page-wrap {
+  height: 650px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-color:teal;
+  
+}
+.mtm {
+  background-color:navy;
+}
+
+#quiz ul li {
+  height: 535px;
+  margin: 25px 0 95px 0;
+  max-height: 535px;
+  min-height: 535px;
+  background-color: olive;
+}
+
 
 

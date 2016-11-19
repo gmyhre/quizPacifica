@@ -340,7 +340,7 @@
               $("#quiz .fwrd").click(function(){
                 clearTimeout(timeout);
                 timeout = setTimeout(function(){
-                    $mt = $mt - 430;
+                    $mt = $mt - 630;
                     $("#test-questions").css("margin-top", $mt);
                 }, 333);
               });
